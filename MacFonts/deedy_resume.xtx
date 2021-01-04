@@ -45,35 +45,28 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 
-\documentclass[]{deedy-resume}
+\documentclass[]{deedy-resume-openfont}
 \usepackage{fancyhdr}
- 
+\usepackage{tcolorbox}
+\usepackage[dvipsnames]{xcolor}
 \pagestyle{fancy}
 \fancyhf{}
  
-\rfoot{Page \thepage \hspace{1pt}}
 \begin{document}
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%
-%     LAST UPDATED DATE
-%
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\lastupdated
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %
 %     TITLE NAME
 %
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\namesection{Debarghya}{Das}{ \urlstyle{same}\href{http://debarghyadas.com}{debarghyadas.com}| \href{http://fb.co/dd}{fb.co/dd}\\
-\href{mailto:deedy@fb.com}{deedy@fb.com} | 607.379.5733 | \href{mailto:dd367@cornell.edu}{dd367@cornell.edu}
-}
+\namesection{Aryan}{Bhatia}{
+Academic Tutor \\
+\location{}
+abha6244@uni.sydney.edu.au | \href{https://www.linkedin.com/in/aryanbhatia11/}{\colorbox{lightgray}{linkedin.com/in/aryanbhatia11}} | 
+\href{https://github.com/aryanbh11}{\colorbox{lightgray}{github.com/aryanbh11}}}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%
 %     COLUMN ONE
-%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \begin{minipage}[t]{0.33\textwidth} 
@@ -84,76 +77,50 @@
 
 \section{Education} 
 
-\subsection{Cornell University}
-\descript{MEng in Computer Science}
-\location{Dec 2014 | Ithaca, NY}
+\subsection{Delhi Public School}
+\descript{High School-CBSE}
+\location{May 2019 | Sec -45 Gurgaon, India}
+Honours: \\ 
+\textbullet{} School Gold Medal for Academic Excellence 
+\textbullet{} School Special Award for Academic Excellence 
+\textbullet{} School Proficiency in Model United Nations (MUNs) and Theatre \\
+\location{AISSCE: 96.75\%}
 \sectionsep
 
-\subsection{Cornell University}
-\descript{BS in Computer Science}
-\location{May 2014 | Ithaca, NY}
-College of Engineering \\
-Magna Cum Laude\\
-\location{ Cum. GPA: 3.83 / 4.0 \\
-Major GPA: 3.9 / 4.0}
+\subsection{University Of Sydney}
+\descript{Bachelor of Engineering Honours (Software/Dalyell)}
+\location{Aug 2019 - Jun 2023}
+Honours: \\ 
+\textbullet{} First Recipient of \href{https://www.youtube.com/watch?v=sv-2RBwLDVQ}{\colorbox{lightgray}{Sydney Scholars India 100\% Scholarship}} (AU\$ 50,000/annum) \\
+\textbullet{} Dalyell Scholar \\
+\location{2020 WAM: 82.9}
 \sectionsep
-
-\subsection{La Martiniere for Boys}
-\location{Grad. May 2011|  Kolkata, India}
-\sectionsep
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%     LINKS
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
-\section{Links} 
-Facebook:// \href{https://facebook/dd}{\bf dd} \\
-Github:// \href{https://github.com/deedydas}{\bf deedydas} \\
-LinkedIn://  \href{https://www.linkedin.com/in/debarghyadas}{\bf debarghyadas} \\
-YouTube://  \href{https://www.youtube.com/user/DeedyDash007}{\bf DeedyDash007} \\
-Twitter://  \href{https://twitter.com/debarghya_das}{\bf @debarghya\_das} \\
-Quora://  \href{https://www.quora.com/Debarghya-Das}{\bf Debarghya-Das}
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%     COURSEWORK
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
-\section{Coursework}
-\subsection{Graduate}
-Advanced Machine Learning \\
-Open Source Software Engineering \\
-Advanced Interactive Graphics \\
-Compilers + Practicum \\
-Cloud Computing \\
-Evolutionary Computation \\
-Defending Computer Networks \\
-Machine Learning \\
-\sectionsep
-
-\subsection{Undergraduate}
-Information Retrieval \\
-Operating Systems \\
-Artificial Intelligence + Practicum \\
-Functional Programming \\
-Computer Graphics + Practicum \\
-{\footnotesize \textit{\textbf{(Research Asst. \& Teaching Asst 2x) }}} \\
-Unix Tools and Scripting \\
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %     SKILLS
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \section{Skills}
-\subsection{Programming}
-\location{Over 5000 lines:}
-Java \textbullet{}   Shell \textbullet{} Python \textbullet{} Javascript \\
-OCaml \textbullet{} Matlab \textbullet{} Rails \textbullet{} \LaTeX\ \\ 
-\location{Over 1000 lines:}
-C \textbullet{} C++ \textbullet{} CSS \textbullet{} PHP \textbullet{} Assembly \\
-\location{Familiar:}
-AS3 \textbullet{} iOS \textbullet{} Android \textbullet{} MySQL
+\subsection{Technical Skills}
+Python \textbullet{} Java \textbullet{} JUnit \textbullet{} Gradle 
+\textbullet{} Jenkins \\ PostgresSQL \textbullet{} Agile (Scrum) \textbullet{} Git \\ Algorithm Design \& Analysis \textbullet{} Data Structures \textbullet{} Microsoft Office  \textbullet{} \LaTeX
 \sectionsep
+\subsection{Soft Skills}
+Oral \& Written Communication \textbullet{} Problem Solving \textbullet{} Leadership \textbullet{} Team Building \\ Reliable \& Consistent \textbullet{} Time Management \\
 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     REFERENCE
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\sectionsep
+\section{Reference} 
+\subsection{Nahian Al Hasan}
+\descript{ML Engineer at Notion AI}
+\location{Ex Academic Tutor:}
+INFO1112 \textbullet{} INFO1110 \textbullet{} DATA3404 \\
+COMP5338\\
+\location{Contact Info:}
+bitnahian@yahoo.com
+\href{https://www.linkedin.com/in/bitnahian/}{linkedin.com/in/bitnahian/}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %
 %     COLUMN TWO
@@ -162,83 +129,72 @@ AS3 \textbullet{} iOS \textbullet{} Android \textbullet{} MySQL
 
 \end{minipage} 
 \hfill
-\begin{minipage}[t]{0.66\textwidth} 
+\begin{minipage}[t]{0.64\textwidth} 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %     EXPERIENCE
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \section{Experience}
-\runsubsection{Facebook}
-\descript{| Software Engineer }
-\location{Jan 2015 - Present | New York, NY}
+\runsubsection{Mathematics Tutor}
+\descript{| Delhi Public School Gurgaon}
+\location{May 2015 – May 2018}
+Took part in Project “Muskan” ("smile" in Hindi). This project was started by my school which targeted to help underprivileged students in a nearby “all girls” Government School by providing them with free high quality education. I volunteered to teach mathematics to middle school students as a part of this project. 
 \sectionsep
 
-\runsubsection{Coursera}
-\descript{| KPCB Fellow + Software Engineering Intern }
-\location{June 2014 – Sep 2014 | Mountain View, CA}
+\runsubsection{Student Ambassador}
+\descript{| University of Sydney}
+\location{Jun 2019 - Present}
+As the recipient of the Sydney Scholars India Scholarship, I was appointed as the Student Ambassador of my University. My role is to work with the International Student Recruitment Department to promote the University of Sydney to students all over the world. I am also responsible for representing the University in communications and events.
+\sectionsep
+
+\runsubsection{Marketing Director}
+\descript{| BusinessOne Consulting }
+\location{Jul 2020 – Present}
+Responsible for promoting the BusinessOne brand through the engagement of students, clients, sponsors and alumni. My role includes:
 \vspace{\topsep} % Hacky fix for awkward extra vertical space
-\begin{tightemize}\item 52 out of 2500 applicants chosen to be a KPCB Fellow 2014.
-\item Led and shipped Yoda - the admin interface for the new Phoenix platform. 
-\item Full-stack developer - Wrote and reviewed code for JS using Backbone, Jade, Stylus and Require and Scala using Play
+\begin{tightemize}
+\item Website maintenance and updates
+\item Social Media management, creating newsletters, merchandise etc.
 \end{tightemize}
 \sectionsep
 
-\runsubsection{Google}
-\descript{| Software Engineering Intern }
-\location{May 2013 – Aug 2013 | Mountain View, CA}
+\runsubsection{Engineering and IT Peer Mentor}
+\descript{| University of Sydney }
+\location{Aug 2020 – Present}
+My responsibilities as an ENGO Peer Mentor are to:
 \begin{tightemize}
-\item Worked on the YouTube Captions team, in Javascript and Python to plan, to design and develop the full stack to add and edit Automatic Speech Recognition captions. In production.\item Created a backbone.js-like framework for the Captions editor.\end{tightemize}
-\sectionsep
-
-\runsubsection{Phabricator}
-\descript{| Open Source Contributor \& Team Leader}
-\location{Jan 2013 – May 2013 | Palo Alto, CA \& Ithaca, NY}
-\begin{tightemize}
-\item Phabricator is used daily by Facebook, Dropbox, Quora, Asana and more.\item I created the Meme generator and more in PHP and Shell.\item Led a team from MIT, Cornell, IC London and UHelsinki for the project.\end{tightemize}
+\item Provide support, practical information and advice about Engineering and IT
+\item Direct students to resources and support services on campus
+\item Encourage and help students build relationships with eachother
+\end{tightemize}
 \sectionsep
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%     RESEARCH
+%     PROJECTS
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\section{Research}
-\runsubsection{Cornell Robot Learning Lab}
-\descript{| Researcher}
-\location{Jan 2014 – Jan 2015 | Ithaca, NY}
-Worked with \textbf{\href{http://www.cs.cornell.edu/~ashesh/}{Ashesh Jain}} and \textbf{\href{http://www.cs.cornell.edu/~asaxena/}{Prof Ashutosh Saxena}} to create \textbf{PlanIt}, a tool which  learns from large scale user preference feedback to plan robot trajectories in human environments.  
+\section{Projects}
+\runsubsection{AI Learns to Play Flappy Bird}
+\descript{\href{https://github.com/aryanbh11/AI-Flappy-Bird}{| \colorbox{lightgray}{GitHub}}}
+Created a clone the popular game Flappy Bird using pygame and then implemented the Neuro Evolution of Augmenting Technologies (NEAT) to train an agent to play the game.
 \sectionsep
 
-\runsubsection{Cornell Phonetics Lab}
-\descript{| Head Undergraduate Researcher}
-\location{Mar 2012 – May 2013 | Ithaca, NY}
-Led the development of \textbf{QuickTongue}, the first ever breakthrough tongue-controlled game with \textbf{\href{http://conf.ling.cornell.edu/~tilsen/}{Prof Sam Tilsen}} to aid in Linguistics research. 
+\runsubsection{Java Chat-App}
+\descript{\href{https://github.com/aryanbh11/chat-app}{| \colorbox{lightgray}{GitHub}}}
+Built a text chat app using concepts of networking and socket programming. The app has an easy to use interface created using Java Swing which allows communication between a Server and a Client via a TCP connection.
 \sectionsep
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%     AWARDS
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
-\section{Awards} 
-\begin{tabular}{rll}
-2014	     & top 52/2500  & KPCB Engineering Fellow\\
-2014	     & 1\textsuperscript{st}/50  & Microsoft Coding Competition, Cornell\\
-2013	     & National  & Jump Trading Challenge Finalist\\
-2013     & 7\textsuperscript{th}/120 & CS 3410 Cache Race Bot Tournament  \\
-2012     & 2\textsuperscript{nd}/150 & CS 3110 Biannual Intra-Class Bot Tournament \\
-2011     & National & Indian National Mathematics Olympiad (INMO) Finalist \\
-\end{tabular}
+\runsubsection{COVID-19 Voice Assistant}
+\descript{\href{https://github.com/aryanbh11/covid-voice-assistant}{| \colorbox{lightgray}{GitHub}}}
+A Voice Assistant in python which scrapes the web using BeautifulSoup to answer user's questions related to COVID-19.
 \sectionsep
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%     PUBLICATIONS
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
-\section{Publications} 
-\renewcommand\refname{\vskip -1.5cm} % Couldn't get this working from the .cls file
-\bibliographystyle{abbrv}
-\bibliography{publications}
-\nocite{*}
+\runsubsection{Vending Machine App}
+\descript{\href{https://github.sydney.edu.au/SOFT2412-2020S2/R18C_G3_ASM2}{| \colorbox{lightgray}{GitHub}}}
+In a team of 5, built a Vending Machine Application using tools such as Java Swing, Gradle, Jenkins, JUnit and GitHub. The project aimed to teach us how to apply Scrum and CI/CD methodologies and tools during development. I was the Scrum Master for our team.
+\sectionsep
 
 \end{minipage} 
 \end{document}  \documentclass[]{article}
+
